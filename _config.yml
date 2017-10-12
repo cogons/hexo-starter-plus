@@ -80,10 +80,10 @@ theme: landscape
 # _config.yaml 
 deploy:
   - type: git
-    repo: https://github.com/cogons/hexo-starter-plus.git
+    repo: git@github.com:cogons/hexo-starter-plus.git
     branch: master
   - type: git
-    repo: https://github.com/cogons/hexo-starter-plus.git
+    repo: git@github.com:cogons/hexo-starter-plus.git
     branch: src
     extend_dirs: /
     ignore_hidden: false
