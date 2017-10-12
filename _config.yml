@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cogons.github.io
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -80,10 +80,10 @@ theme: landscape
 # _config.yaml 
 deploy:
   - type: git
-    repo: git@github.com:cogons/cogons.github.io.git
+    repo: https://github.com/cogons/hexo-starter-plus.git
     branch: master
   - type: git
-    repo: git@github.com:cogons/cogons.github.io.git
+    repo: https://github.com/cogons/hexo-starter-plus.git
     branch: src
     extend_dirs: /
     ignore_hidden: false
